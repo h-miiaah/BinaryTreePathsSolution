@@ -30,5 +30,6 @@
 
   /**
    * Start with an empty array, which will eventually hold all the paths.
+   * Start with a helper function that takes in a node and returns a boolean indicating whether the node is a leaf.
    * 
    */
