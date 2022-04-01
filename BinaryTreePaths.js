@@ -17,5 +17,9 @@
         if (!node) {
             return acc
           }
+        if (isLeaf(node)) {
+            currentPath = join(currentPath, node.val)
+            
+          }
       }
   };
