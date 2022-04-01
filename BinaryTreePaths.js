@@ -13,4 +13,7 @@
  var binaryTreePaths = function(root) {
     const isLeaf = node => node && (!node.left) && (!node.right)
     const join = (current, val) => (current ? `${current}->${val}` : `${val}`)
+    const aux = (node, currentPath = '', acc) => {
+        
+      }
   };
