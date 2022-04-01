@@ -32,5 +32,6 @@
    * Start with an empty array, which will eventually hold all the paths.
    * Start with a helper function that takes in a node and returns a boolean indicating whether the node is a leaf.
    * Start with a helper function that takes in a node, a current path, and an array of paths.
+   * If the node is null, we return the array of paths.
    * 
    */
