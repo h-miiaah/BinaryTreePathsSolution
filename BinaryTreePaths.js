@@ -25,4 +25,5 @@
         aux(node.right, join(currentPath, node.val), acc)
         return acc
       }
+      return aux(root, '', [])
   };
