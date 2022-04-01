@@ -11,5 +11,5 @@
  * @return {string[]}
  */
  var binaryTreePaths = function(root) {
-    
+    const isLeaf = node => node && (!node.left) && (!node.right)
   };
