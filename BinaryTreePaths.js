@@ -22,5 +22,6 @@
             acc.push(currentPath)
           }
         aux(node.left, join(currentPath, node.val), acc)
+        aux(node.right, join(currentPath, node.val), acc)
       }
   };
