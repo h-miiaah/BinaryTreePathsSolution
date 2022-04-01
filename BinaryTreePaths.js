@@ -33,5 +33,6 @@
    * Start with a helper function that takes in a node and returns a boolean indicating whether the node is a leaf.
    * Start with a helper function that takes in a node, a current path, and an array of paths.
    * If the node is null, we return the array of paths.
+   * If the node is not a leaf, we recursively call the helper function on the left and right children of the node.
    * 
    */
