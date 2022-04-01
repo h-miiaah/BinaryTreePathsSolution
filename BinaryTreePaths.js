@@ -29,5 +29,6 @@
   };
 
   /**
+   * Start with an empty array, which will eventually hold all the paths.
    * 
    */
