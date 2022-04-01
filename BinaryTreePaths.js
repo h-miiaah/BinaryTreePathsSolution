@@ -19,7 +19,7 @@
           }
         if (isLeaf(node)) {
             currentPath = join(currentPath, node.val)
-            
+            acc.push(currentPath)
           }
       }
   };
